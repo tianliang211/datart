@@ -2,3 +2,6 @@
 target
 .idea
 *.iml
+files
+logs
+.DS_Store
