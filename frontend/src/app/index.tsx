@@ -58,7 +58,7 @@ export function App() {
     <BrowserRouter>
       <Helmet
         titleTemplate="%s - Datart"
-        defaultTitle="Datart"
+        defaultTitle="砚山县中医医院数据可视化"
         htmlAttributes={{ lang: i18n.language }}
       >
         <meta name="description" content="Data Art" />

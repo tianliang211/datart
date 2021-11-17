@@ -127,28 +127,28 @@ export function Navbar() {
         icon: <i className="iconfont icon-shujukupeizhi" />,
         module: ResourceTypes.Source,
       },
-      {
-        name: 'schedules',
-        title: '定时任务',
-        icon: <i className="iconfont icon-fasongyoujian" />,
-        module: ResourceTypes.Schedule,
-      },
-      {
-        name: 'members',
-        title: '成员与角色',
-        icon: <i className="iconfont icon-users1" />,
-        isActive: (_, location) =>
-          !!location.pathname.match(
-            /\/organizations\/[\w]{32}\/(members|roles)/,
-          ),
-        module: ResourceTypes.User,
-      },
-      {
-        name: 'permissions',
-        title: '权限',
-        icon: <SafetyCertificateFilled />,
-        module: ResourceTypes.Manager,
-      },
+      // {
+      //   name: 'schedules',
+      //   title: '定时任务',
+      //   icon: <i className="iconfont icon-fasongyoujian" />,
+      //   module: ResourceTypes.Schedule,
+      // },
+      // {
+      //   name: 'members',
+      //   title: '成员与角色',
+      //   icon: <i className="iconfont icon-users1" />,
+      //   isActive: (_, location) =>
+      //     !!location.pathname.match(
+      //       /\/organizations\/[\w]{32}\/(members|roles)/,
+      //     ),
+      //   module: ResourceTypes.User,
+      // },
+      // {
+      //   name: 'permissions',
+      //   title: '权限',
+      //   icon: <SafetyCertificateFilled />,
+      //   module: ResourceTypes.Manager,
+      // },
       {
         name: 'toSub',
         title: '设置',

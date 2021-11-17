@@ -25,7 +25,10 @@ spring:
           ssl:
             enable: true
   redis:
-    host: 127.0.0.1:6379
+    host: 127.0.0.1
+    port: 6379
+
+
 
 
 server:
@@ -52,3 +55,5 @@ datart:
     timeout-seconds: 60
     webdriver-type: CHROME
     webdriver-path: /liangt
+
+cacheImpl: datart.server.service.impl.RedisCacheImpl

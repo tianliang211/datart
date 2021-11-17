@@ -100,10 +100,10 @@ export function LoginForm() {
               </Button>
             )}
           </Form.Item>
-          <Links>
-            <LinkButton to="/forgetPassword">忘记密码</LinkButton>
-            <LinkButton to="/register">注册账号</LinkButton>
-          </Links>
+          {/*<Links>*/}
+          {/*  <LinkButton to="/forgetPassword">忘记密码</LinkButton>*/}
+          {/*  <LinkButton to="/register">注册账号</LinkButton>*/}
+          {/*</Links>*/}
         </Form>
       )}
     </AuthForm>

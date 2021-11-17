@@ -6,11 +6,11 @@
 #  identifier-quote: "`"
 #  url-prefix: jdbc:example://
 
-IMPALA:
-  db-type: "impala"
-  name: "impala"
-  driver-class: "com.cloudera.impala.jdbc41.Driver"
-  literal-quote: "'"
-  identifier-quote: "`"
-  adapter-class: "datart.data.provider.jdbc.adapters.ImpalaDataProviderAdapter"
-  url-prefix: "jdbc:impala://"
+#IMPALA:
+#  db-type: "impala"
+#  name: "impala"
+#  driver-class: "com.cloudera.impala.jdbc41.Driver"
+#  literal-quote: "'"
+#  identifier-quote: "`"
+#  adapter-class: "datart.data.provider.jdbc.adapters.ImpalaDataProviderAdapter"
+#  url-prefix: "jdbc:impala://"
